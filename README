@@ -1,4 +1,7 @@
-1. Run 
-ruby bin/configure.rb 
-to obtain access to yammer.
-2. run daemon
+1. Obtain access to yammer:
+  
+  $: ruby bin/configure.rb 
+
+2. Run daemon
+  
+  $: ruby bin/yammer_notifier_daemon.rb start
