@@ -1,0 +1,47 @@
+GEM
+  remote: http://rubygems.org/
+  specs:
+    addressable (2.2.8)
+    daemons (1.1.4)
+    faraday (0.8.4)
+      multipart-post (~> 1.1)
+    httpauth (0.2.0)
+    json (1.7.5)
+    jwt (0.1.5)
+      multi_json (>= 1.0)
+    launchy (2.0.5)
+      addressable (~> 2.2.6)
+    multi_json (1.3.6)
+    multipart-post (1.1.5)
+    oauth2 (0.8.0)
+      faraday (~> 0.8)
+      httpauth (~> 0.1)
+      jwt (~> 0.1.4)
+      multi_json (~> 1.0)
+      rack (~> 1.2)
+    oj (1.3.7)
+    patron (0.4.18)
+    rack (1.4.1)
+    rack-protection (1.2.0)
+      rack
+    sinatra (1.3.2)
+      rack (~> 1.3, >= 1.3.6)
+      rack-protection (~> 1.2)
+      tilt (~> 1.3, >= 1.3.3)
+    terminal-notifier (1.4.2)
+    tilt (1.3.3)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  daemons
+  faraday
+  json
+  launchy
+  multi_json
+  oauth2
+  oj
+  patron
+  sinatra
+  terminal-notifier

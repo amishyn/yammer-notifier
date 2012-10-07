@@ -1,0 +1,4 @@
+1. Run 
+ruby bin/configure.rb 
+to obtain access to yammer.
+2. run daemon
